@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    height: 800px;
+    background-color: rgba(206, 179, 119, 0.589);
+}
+
+.button{
+    cursor: pointer;
+    padding: 30px;
+}
+
+.button p{
+    color: rgb(74, 54, 24);
+    font-size: 12pt;
+}
+
+.text-massage p{
+    font-size: 22pt;
+    padding: 10px;
+    text-align: center;
+    color: rgb(49, 38, 22);
+}
+
+.rus{
+    border-bottom: 2px solid white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rus_massage{
+    width: 1000px;
+    font-size: 14pt;
+    color: rgba(82, 62, 32, 0.774);
+}
+
+.rus_massage p{
+    font-size: 18pt;
+    color: rgb(49, 38, 22);
+}
+
+.time ol{
+    padding-top: 25px;
+    width: 100px;
+    list-style-type: none;
+    color: rgba(82, 62, 32, 0.774);
+}
+
+.price ol{
+    padding-top: 25px;
+    width: 100px;
+    list-style-type: none;
+    color: rgba(82, 62, 32, 0.774);
+}
+
+@media all and (max-width: 1000px) and (min-width: 890px){
+    
+    .button p{
+        color: rgb(74, 54, 24);
+        font-size: 11pt;
+    }
+    
+    .text-massage p{
+        font-size: 20pt;
+        padding: 10px;
+        text-align: center;
+        color: rgb(49, 38, 22);
+    }
+    
+    .rus{
+        border-bottom: 2px solid white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .rus_massage{
+        width: 1000px;
+        font-size: 12pt;
+        color: rgba(82, 62, 32, 0.774);
+    }
+    
+    .rus_massage p{
+        font-size: 16pt;
+        color: rgb(49, 38, 22);
+    }
+
+}
+
+@media all and (max-width: 890px) and (min-width: 777px){
+    .button p{
+        color: rgb(74, 54, 24);
+        font-size: 11pt;
+    }
+    
+    .text-massage p{
+        font-size: 20pt;
+        padding: 10px;
+        text-align: center;
+        color: rgb(49, 38, 22);
+    }
+    
+    .rus{
+        border-bottom: 2px solid white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .rus_massage{
+        width: 1000px;
+        font-size: 12pt;
+        color: rgba(82, 62, 32, 0.774);
+    }
+    
+    .rus_massage p{
+        font-size: 16pt;
+        color: rgb(49, 38, 22);
+    }
+}
+
+@media all and (max-width: 777px) and (min-width: 688px){
+    .button p{
+        color: rgb(74, 54, 24);
+        font-size: 11pt;
+    }
+    
+    .text-massage p{
+        font-size: 28pt;
+        padding: 10px;
+        text-align: center;
+        color: rgb(49, 38, 22);
+    }
+    
+    .rus{
+        border-bottom: 2px solid white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .rus_massage{
+        width: 1000px;
+        font-size: 11pt;
+        color: rgba(82, 62, 32, 0.774);
+    }
+    
+    .rus_massage p{
+        font-size: 14pt;
+        color: rgb(49, 38, 22);
+    }
+}
+
+@media all and (max-width: 688px) and (min-width: 500px){
+
+    .conteiner{
+        height: 900px;
+    }
+
+    .button p{
+        color: rgb(74, 54, 24);
+        font-size: 11pt;
+    }
+    
+    .text-massage p{
+        font-size: 28pt;
+        padding: 10px;
+        text-align: center;
+        color: rgb(49, 38, 22);
+    }
+    
+    .rus{
+        border-bottom: 2px solid white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .rus_massage{
+        width: 1000px;
+        font-size: 11pt;
+        color: rgba(82, 62, 32, 0.774);
+    }
+    
+    .rus_massage p{
+        font-size: 14pt;
+        color: rgb(49, 38, 22);
+    }
+}
+
+@media all and (max-width: 500px){
+
+    .conteiner{
+        height: 1650px;
+    }
+
+    .button p{
+        color: rgb(74, 54, 24);
+        font-size: 10pt;
+    }
+    
+    .text-massage p{
+        font-size: 24pt;
+        padding: 10px;
+        text-align: center;
+        color: rgb(49, 38, 22);
+    }
+    
+    .rus{
+        border-bottom: 2px solid white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .rus_massage{
+        width: 1000px;
+        font-size: 11pt;
+        color: rgba(82, 62, 32, 0.774);
+    }
+    
+    .rus_massage p{
+        font-size: 14pt;
+        color: rgb(49, 38, 22);
+    }
+}
