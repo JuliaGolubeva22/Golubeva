@@ -1,0 +1,1417 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.head{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+.nobullet {
+    list-style-type: none;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nobullet p{
+    color:rgb(255, 255, 255);
+    font-size: 14pt;
+}
+
+.nobullet p:hover{
+    color:rgb(32, 100, 23);
+    transition: all 0.5s ease; 
+    cursor: pointer;
+}
+
+.body{
+    height: 800px;
+}
+
+.foto{
+    height: 900px;
+    background-image: url('массаж 1.jpg');
+    background-size: 100% 100%;
+}
+
+.slogan {
+    margin-top: 15%;
+    color:rgb(255, 255, 255);
+    font-size: 28pt;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+.btn{
+    border-radius: 40px;
+    width: 150px;
+    height: 60px;
+    border-style: ridge;
+    border-color: aliceblue;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+ .btn p{
+    text-align: center;
+    line-height: 55px;
+    font-size: 14pt;
+ }
+
+.btn:hover{
+    background-color:rgb(255, 255, 255);
+    transition: all 1s ease; 
+    cursor: pointer;
+    color: rgb(45, 29, 9);
+ }
+
+ .btn:active {
+    background-color: antiquewhite;
+    align-items: center;
+ }
+
+.sertificat{
+    background-color:rgba(206, 179, 119, 0.589);
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-sertificat1{
+    background-image: url('сертификат 1.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 300px;
+    margin: 30px;
+    background-size: 100% 100%;
+    transition: all 1.5s ease 0s;
+}
+
+.image-sertificat1:hover{
+    transform:scale(1.1);
+}
+
+.image-sertificat2{
+    background-image: url('сертификат 2.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 300px;
+    margin: 30px;
+    background-size: 100% 100%;
+    transition: all 1.5s ease 0s;
+}
+
+.image-sertificat2:hover{
+    transform:scale(1.1);
+}
+
+.image-sertificat3{
+    background-image: url('сертификат 3.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 300px;
+    margin: 30px;
+    background-size: 100% 100%;
+    transition: all 1.5s ease 0s;
+}
+
+.image-sertificat3:hover{
+    transform:scale(1.1);
+}
+
+.onas{
+    height: 500px;
+    background-color:rgba(56, 43, 18, 0.816);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-massage1{
+    background-image: url('слайдер 1.jpg');
+    width: 550px;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+.onas p{
+    color:rgb(231, 216, 205);
+    font-size: 16pt;
+    margin-top: 50px;
+}
+
+.onas-text{
+    padding: 10px;
+    width: 750px;
+}
+
+.service{
+    height: 1150px;
+    background-color: rgba(206, 179, 119, 0.589);
+}
+
+.service p{
+    font-size: 22pt;
+    padding: 26px;
+    text-align: center;
+    color: rgb(74, 54, 24);
+}
+
+.massagebody{
+    transition: all 1s ease 0s;
+    display: flex;
+    justify-content:start;
+}
+
+.massagebody:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.image-body{
+    background-image: url('массаж тела.jpg');
+    width: 350px;
+    height: 200px;
+    background-size: 100% 100%;
+    margin: 30px;
+}
+
+.text-body p{
+    font-size: 15pt;
+    width: 900px;
+}
+
+.massageface{
+    display: flex;
+    justify-content:start;
+    transition: all 1s ease 0s;
+}
+
+.massageface:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.image-face{
+    background-image: url('массаж лица.jpg');
+    width: 350px;
+    height: 200px;
+    background-size: 100% 100%;
+    margin: 30px;
+}
+
+.text-face p{
+    font-size: 15pt;
+    width: 900px;
+}
+
+.piling{
+    display: flex;
+    justify-content:start;
+    transition: all 1s ease 0s;
+}
+
+.piling:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.image-piling{
+    background-image: url('пилинг.jpg');
+    width: 350px;
+    height: 200px;
+    background-size: 100% 100%;
+    margin: 30px;
+}
+
+.text-piling p{
+    font-size: 15pt;
+    width: 900px;
+}
+
+.apparat{
+    display: flex;
+    justify-content:start;
+    transition: all 1s ease 0s;
+}
+
+.apparat:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.image-apparat{
+    background-image: url('аппаратный уход.jpg');
+    width: 350px;
+    height: 200px;
+    background-size: 100% 100%;
+    margin: 30px;
+}
+
+.text-apparat p{
+    font-size: 15pt;
+    width: 900px;
+}
+
+.studio{
+    height: 700px;
+    background-color: rgba(56, 43, 18, 0.816);
+}
+
+.studio p{
+    color:rgb(231, 216, 205);
+    font-size: 22pt;
+    padding: 20px;
+    text-align: center;
+}
+
+.studio-foto{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.image-studio1{
+    background-image: url('студия 1.jpg');
+    width: 450px;
+    height: 400px;
+    background-size: 100% 100%;
+    margin: 20px;
+}
+
+.image-studio2{
+    background-image: url('студия 2.jpg');
+    width: 450px;
+    height: 400px;
+    background-size: 100% 100%;
+    margin: 20px;
+}
+
+.studio-text{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.studio-text1{
+    width: 450px;
+    margin: 20px;
+}
+
+.studio-text1 p{
+    color: rgb(231, 216, 205);
+    font-size: 14pt;
+    padding: 20px;
+    text-align: center;
+}
+
+.studio-text2{
+    width: 450px;
+    margin: 20px;
+}
+
+.studio-text2 p{
+    color: rgb(231, 216, 205);
+    font-size: 14pt;
+    padding: 20px;
+    text-align: center;
+}
+
+.review{
+    height: 600px;
+    background-color:rgba(206, 179, 119, 0.589);
+}
+
+.review p{
+    font-size: 22pt;
+    padding: 26px;
+    text-align: center;
+    color: rgb(74, 54, 24);
+    }    
+
+.review-block{
+    margin: auto;
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.linecell{
+    width: 2000px;
+    height: 400px;
+    display:flex;
+    position: relative;
+}
+
+.end{
+    height: 300px;
+    background-color: rgba(32, 67, 25, 0.801);
+}
+
+.logotip{
+    background-image: url('логотип.png');
+    height: 135px;
+    width: 135px;
+    padding: 40px;
+    background-size: 100% 100%;
+}
+
+.logotip:hover{
+    cursor: pointer;
+}
+
+.endleft {
+    color:rgb(255, 255, 255);
+    padding-left:40px;
+    list-style-type: none;
+    height: 100px;
+    font-size: 16pt;
+    line-height: 50px;
+}
+
+.right p{
+    color:rgb(255, 255, 255);
+    font-size: 16pt;
+    padding-right:60px;
+    line-height: 40px;
+    text-align: right;
+}
+
+@media all and (max-width: 1200px) and (min-width: 1000px) {
+    .onas{
+        height: 500px;
+    }
+    
+    .image-massage1{
+        background-image: url('слайдер 1.jpg');
+        width: 500px;
+        height: 350px;
+        background-size: 100% 100%;
+    }
+    
+    .onas p{
+        color:rgb(231, 216, 205);
+        font-size: 14pt;
+        margin-top: 50px;
+    }
+    
+    .onas-text{
+        padding: 10px;
+        width: 650px;
+    }
+
+    .service{
+        height: 1800px;
+    }
+
+    .service p{
+        font-size: 22pt;
+        padding: auto;
+        text-align: center;
+        color: rgb(74, 54, 24);
+    }
+    
+    .massagebody{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-body{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    
+    .text-body p{
+        font-size: 15pt;
+        width: 900px;
+        margin: auto;
+    }
+
+    .massageface{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-face{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    
+    .text-face p{
+        font-size: 15pt;
+        width: 900px;
+        margin: auto;
+    }
+
+    .piling{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-piling{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    
+    .text-piling p{
+        font-size: 15pt;
+        width: 900px;
+        margin: auto;
+    }
+
+    .apparat{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-apparat{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    
+    .text-apparat p{
+        font-size: 15pt;
+        width: 900px;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 1000px) and (min-width: 890px){
+
+    .service{
+        height: 1800px;
+    }
+
+    .service p{
+        font-size: 22pt;
+        padding: auto;
+        text-align: center;
+        color: rgb(74, 54, 24);
+    }
+    
+    .massagebody{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-body{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    
+    .text-body p{
+        font-size: 15pt;
+        width: 900px;
+        margin: auto;
+    }
+
+    .massageface{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-face{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    
+    .text-face p{
+        font-size: 15pt;
+        width: 900px;
+        margin: auto;
+    }
+
+    .piling{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-piling{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    
+    .text-piling p{
+        font-size: 15pt;
+        width: 900px;
+        margin: auto;
+    }
+
+    .apparat{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-apparat{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    
+    .text-apparat p{
+        font-size: 15pt;
+        width: 900px;
+        margin: auto;
+    }
+    .slogan {
+        font-size: 22pt;
+    }
+
+    .sertificat{
+        height: 500px;
+        display: flex;
+        justify-content: start;
+    }
+
+    .image-sertificat1{
+        height: 400px;
+        width: 300px;
+    }
+
+    .image-sertificat2{
+        height: 400px;
+        width: 300px;
+    }
+
+    .image-sertificat3{
+        height: 400px;
+        width: 300px;
+    }
+
+    .studio-text1{
+        width: 400px;
+        margin: 20px;
+    }
+
+    .studio-text2{
+        width: 400px;
+        margin: 20px;
+    }
+}
+
+@media all and (max-width: 890px) and (min-width: 777px){
+    .slogan {
+        font-size: 20pt;
+    }
+    
+    .onas{
+        height: 400px;
+    }
+    
+    .onas p{
+        font-size: 13pt;
+        margin-top: 35px;
+    }
+    
+    .onas-text{
+        padding: 10px;
+        width: 600px;
+    }
+
+    .image-massage1{
+        background-image: url('слайдер 1.jpg');
+        width: 450px;
+        height: 300px;
+        background-size: 100% 100%;
+    }
+
+    .service{
+        height: 1800px;
+    }
+
+    .massagebody{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-body{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+
+    .text-body p{
+        font-size: 14pt;
+        width: 800px;
+        margin: auto;
+    }
+
+    .massageface{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-face{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    
+    .text-face p{
+        font-size: 14pt;
+        width: 800px;
+        margin: auto;
+    }
+
+    .piling{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-piling{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+
+    .text-piling p{
+        font-size: 14pt;
+        width: 800px;
+        margin: auto;
+    }
+    
+    .apparat{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-apparat{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+
+    .text-apparat p{
+        font-size: 14pt;
+        width: 800px;
+        margin: auto;
+    }
+
+    .studio-text1{
+        width: 350px;
+        margin: 20px;
+    }
+    
+    .studio-text1 p{
+        color: rgb(231, 216, 205);
+        font-size: 12pt;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .studio-text2{
+        width: 350px;
+        margin: 20px;
+    }
+    
+    .studio-text2 p{
+        color: rgb(231, 216, 205);
+        font-size: 12pt;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .endleft {
+        font-size: 14pt;
+        line-height: 40px;
+    }
+    
+    .right p{
+        font-size: 14pt;
+        line-height: 30px;
+    }
+
+    .review p{
+        font-size: 20pt;
+        }    
+}
+
+@media all and (max-width: 777px) and (min-width: 688px){
+
+    .service{
+        height: 1800px;
+    }
+
+    .massagebody{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-body{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+
+    .text-body p{
+        font-size: 14pt;
+        width: 800px;
+        margin: auto;
+    }
+
+    .massageface{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-face{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    
+    .text-face p{
+        font-size: 14pt;
+        width: 800px;
+        margin: auto;
+    }
+
+    .piling{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-piling{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+
+    .text-piling p{
+        font-size: 14pt;
+        width: 800px;
+        margin: auto;
+    }
+    
+    .apparat{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-apparat{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+
+    .text-apparat p{
+        font-size: 14pt;
+        width: 800px;
+        margin: auto;
+    }
+
+    .btn{
+        border-radius: 25px;
+        width: 130px;
+        height: 50px;
+        border-style: ridge;
+        border-color: aliceblue;
+        margin: auto;
+        color: rgb(255, 255, 255);
+    }
+     .btn p{
+        text-align: center;
+        line-height: 45px;
+        font-size: 12pt;
+     }
+
+    .slogan {
+        font-size: 18pt;
+    }
+    
+    .onas{
+        height: 350px;
+    }
+    
+    .onas p{
+        font-size: 12pt;
+        margin-top: 5px;
+    }
+    
+    .onas-text{
+        padding: 10px;
+        width: 500px;
+    }
+
+    .image-massage1{
+        background-image: url('слайдер 1.jpg');
+        width: 400px;
+        height: 250px;
+        background-size: 100% 100%;
+    }
+
+    .text-body p{
+        width: 700px;
+        margin: auto;
+    }
+    
+    .text-face p{
+        width: 700px;
+        margin: auto;
+    }
+
+    .text-piling p{
+        width: 700px;
+        margin: auto;
+    }
+    
+    .text-apparat p{
+        width: 700px;
+        margin: auto;
+    }
+
+    .studio-text1{
+        width: 300px;
+        margin: 15px;
+    }
+    
+    .studio-text1 p{
+        color: rgb(231, 216, 205);
+        font-size: 12pt;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .studio-text2{
+        width: 300px;
+        margin: 15px;
+    }
+    
+    .studio-text2 p{
+        color: rgb(231, 216, 205);
+        font-size: 12pt;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .end{
+        height: 260px;
+    }
+
+    .sertificat{
+        height: 400px;
+        display: flex;
+    }
+
+    .image-sertificat1{
+        padding: 10px;
+        height: 300px;
+        width: 280px;
+    }
+
+    .image-sertificat2{
+        padding: 10px;
+        height: 300px;
+        width: 280px;
+    }
+
+    .image-sertificat3{
+        padding: 10px;
+        height: 300px;
+        width: 280px;
+    }
+
+    .review-block{
+        margin: auto;
+        height: 300px;
+        width: 400px;
+        border: 1px solid black;
+        overflow: hidden;
+    }
+    
+    .linecell{
+        width: 1600px;
+        height: 300px;
+        display:flex;
+        position: relative;
+    }
+
+    .review{
+        height: 500px;
+    }
+}
+
+@media all and (max-width: 688px) and (min-width: 400px){
+    .service{
+        height: 1800px;
+    }
+
+    .massagebody{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-body{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+
+    .text-body p{
+        font-size: 12pt;
+        width: 400px;
+        margin: auto;
+    }
+
+    .massageface{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-face{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+    
+    .text-face p{
+        font-size: 12pt;
+        width: 400px;
+        margin: auto;
+    }
+
+    .piling{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-piling{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+
+    .text-piling p{
+        font-size: 12pt;
+        width: 100px;
+        margin: auto;
+    }
+    
+    .apparat{
+        transition: all 1s ease 0s;
+        display: block;
+    }
+    
+    .image-apparat{
+        width: 330px;
+        height: 180px;
+        background-size: 100% 100%;
+        margin: auto;
+    }
+
+    .text-apparat p{
+        font-size: 12pt;
+        width: 800px;
+        margin: auto;
+    }
+
+    .btn{
+        border-radius: 25px;
+        width: 130px;
+        height: 50px;
+        border-style: ridge;
+        border-color: aliceblue;
+        margin: auto;
+        color: rgb(255, 255, 255);
+    }
+     .btn p{
+        text-align: center;
+        line-height: 45px;
+        font-size: 12pt;
+     }
+
+    .slogan {
+        font-size: 18pt;
+    }
+    
+    .onas{
+        height: 350px;
+    }
+    
+    .onas p{
+        font-size: 12pt;
+        margin-top: 5px;
+    }
+    
+    .onas-text{
+        padding: 10px;
+        width: 500px;
+    }
+
+    .image-massage1{
+        background-image: url('слайдер 1.jpg');
+        width: 400px;
+        height: 250px;
+        background-size: 100% 100%;
+    }
+
+    .text-body p{
+        width: 700px;
+        margin: auto;
+    }
+    
+    .text-face p{
+        width: 700px;
+        margin: auto;
+    }
+
+    .text-piling p{
+        width: 700px;
+        margin: auto;
+    }
+    
+    .text-apparat p{
+        width: 700px;
+        margin: auto;
+    }
+
+    .studio-text1{
+        width: 300px;
+        margin: 15px;
+    }
+    
+    .studio-text1 p{
+        color: rgb(231, 216, 205);
+        font-size: 12pt;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .studio-text2{
+        width: 300px;
+        margin: 15px;
+    }
+    
+    .studio-text2 p{
+        color: rgb(231, 216, 205);
+        font-size: 12pt;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .end{
+        height: 260px;
+    }
+
+    .sertificat{
+        height: 300px;
+        display: flex;
+    }
+
+    .image-sertificat1{
+        padding: 10px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .image-sertificat2{
+        padding: 10px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .image-sertificat3{
+        padding: 10px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .review-block{
+        margin: auto;
+        height: 300px;
+        width: 400px;
+        border: 1px solid black;
+        overflow: hidden;
+    }
+    
+    .linecell{
+        width: 1600px;
+        height: 300px;
+        display:flex;
+        position: relative;
+    }
+
+    .review{
+        height: 500px;
+    }
+}
+
+@media all and (max-width: 400px){
+    .head{
+        height: 80px;
+    }
+    
+    .nobullet {
+        height: 80px;
+    }
+    
+    .nobullet p{
+        font-size: 10pt;
+    }
+    
+    .body{
+        height: 400px;
+    }
+    
+    .foto{
+        height: 400px;
+    }
+    
+    .slogan {
+        font-size: 11pt;
+        line-height: 25px;
+    }
+    
+    .btn{
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+    }
+     .btn p{
+        line-height: 35px;
+        font-size: 10pt;
+     }
+
+    .sertificat{
+        height: 250px;
+    }
+    
+    .image-sertificat1{
+        height: 200px;
+        width: 150px;
+        margin: 10px;
+    }
+    
+    .image-sertificat2{
+        height: 200px;
+        width: 150px;
+        margin: 10px;
+    }
+    
+    .image-sertificat3{
+        height: 200px;
+        width: 150px;
+        margin: 10px;
+    }
+    
+    .onas{
+        height: 280px;
+        padding: 10px;
+    }
+    
+    .image-massage1{
+        width: 350px;
+        height: 180px;
+    }
+    
+    .onas p{
+        font-size: 10pt;
+        margin-top: 0px;
+    }
+    
+    .onas-text{
+        padding: 10px;
+        width: 550px;
+    }
+    
+    .service{
+        height: 1450px;
+    }
+    
+    .service p{
+        font-size: 16pt;
+    }
+
+    .massagebody{
+        display: block;
+    }
+    
+    .image-body{
+        margin: auto;
+        width: 150px;
+        height: 80px;
+    }
+    
+    .text-body p{
+        font-size: 10pt;
+        width: 350px;
+    }
+    
+    .massageface{
+        display: block;
+    }
+    
+    .image-face{
+        margin: auto;
+        width: 150px;
+        height: 80px;
+    }
+    
+    .text-face p{
+        font-size: 10pt;
+        width: 350px;
+    }
+    
+    .piling{
+        display: block;
+    }
+    
+    .image-piling{
+        margin: auto;
+        width: 150px;
+        height: 80px;
+    }
+    
+    .text-piling p{
+        font-size: 10pt;
+        width: 350px;
+    }
+    
+    .apparat{
+        display: block;
+    }
+    
+    .image-apparat{
+        margin: auto;
+        width: 150px;
+        height: 80px;
+    }
+    
+    .text-apparat p{
+        font-size: 10pt;
+        width: 350px;
+    }
+    
+    .studio{
+        height: 600px;
+    }
+    
+    .studio p{
+        font-size: 16pt;
+    }
+    
+    .studio-foto{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    
+    .studio-text{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    
+    .studio-text1{
+        width: 180px;
+        margin: 5px;
+    }
+    
+    .studio-text1 p{
+        font-size: 10pt;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .studio-text2{
+        width: 180px;
+        margin: 5px;
+    }
+    
+    .studio-text2 p{
+        font-size: 10pt;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .review{
+        height: 300px;
+    }
+    
+    .review p{
+        font-size: 22pt;
+        padding: 26px;
+        text-align: center;
+        color: rgb(74, 54, 24);
+        }    
+    
+    .review-block{
+        margin: auto;
+        height: 100px;
+        width: 250px;
+        border: 2px solid black;
+        overflow: hidden;
+    }
+    
+    .linecell{
+        width: 2000px;
+        height: 400px;
+        display:flex;
+        position: relative;
+    }
+    
+    .end{
+        height: 300px;
+        background-color: rgba(32, 67, 25, 0.801);
+    }
+    
+    .logotip{
+        background-image: url('логотип.png');
+        height: 105px;
+        width: 105px;
+        padding: 20px;
+        background-size: 100% 100%;
+    }
+    
+    .logotip:hover{
+        cursor: pointer;
+    }
+    
+    .endleft {
+        padding-left:10px;
+        list-style-type: none;
+        height: 100px;
+        font-size: 10pt;
+        line-height: 20px;
+    }
+    
+    .right p{
+        list-style-type: none;
+        font-size: 10pt;
+        margin-top: 40px;
+        padding-right:5px;
+        line-height: 0px;
+        text-align: right;
+    }
+}
